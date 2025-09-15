@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Lilian Kibo High School</title>
+  <meta name="description" content="Contact Lilian Kibo High School for admissions, visits, or general enquiries.">
+  <link rel="canonical" href="http://www.liliankibosecondary.com/contact.html">
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+      </div>
+      <nav class="main-nav">
+        <button id="menuBtn4" class="menu-btn" aria-expanded="false" aria-controls="navList4">☰</button>
+        <ul id="navList4" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container content contact-page">
+    <h2>Contact Us</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>School Office</h3>
+        <p><strong>Address:</strong> Goba, Dar es Salaam, Tanzania</p>
+        <p><strong>Email:</strong> <a href="mailto:info@liliankibosecondary.com">info@liliankibosecondary.com</a></p>
+        <p><strong>Phone:</strong> +255 700 123 456</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/liliankibohighschool" target="_blank" rel="noopener">@liliankibohighschool</a></p>
+      </div>
+
+      <form id="contactForm" class="contact-form" action="#" method="post" novalidate>
+        <label for="name">Full name</label>
+        <input id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <section class="map">
+      <h3>Location</h3>
+      <!-- Replace src with actual Google Maps embed for the school location -->
+      <iframe title="Lilian Kibo High School location" src="https://maps.google.com/maps?q=Goba%20Dar%20es%20Salaam&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year4"></span> Lilian Kibo High School</p>
+    </div>
+  </footer>
+
+  <script src="/src/js/script.js" defer></script>
+</body>
+</html>

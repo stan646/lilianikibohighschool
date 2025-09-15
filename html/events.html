@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Events — Lilian Kibo High School</title>
+  <meta name="description" content="Events and activities at Lilian Kibo High School — sports, awards, outreach and academic events.">
+  <link rel="canonical" href="http://www.liliankibosecondary.com/events.html">
+  <meta property="og:title" content="Events — Lilian Kibo High School">
+  <meta property="og:description" content="See our recent and upcoming events.">
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+      </div>
+      <nav class="main-nav">
+        <button id="menuBtn3" class="menu-btn" aria-expanded="false" aria-controls="navList3">☰</button>
+        <ul id="navList3" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container content">
+    <h2>School Events</h2>
+
+    <section class="events-list">
+      <!-- Each event can be expanded and include image, rich description and registration links -->
+      <article class="event-full">
+        <h3>Academic Awards Night</h3>
+        <time datetime="2025-05-15">May 15, 2025</time>
+        <img src="images/event1.jpg" alt="Awards night" loading="lazy">
+        <p>We celebrated students who excelled across various subjects. Photos and award winners list available on our gallery.</p>
+      </article>
+
+      <article class="event-full">
+        <h3>Inter-House Sports Competition</h3>
+        <time datetime="2025-06-10">June 10, 2025</time>
+        <img src="images/event2.jpg" alt="sports day" loading="lazy">
+        <p>House teams competed in track and field, football and relays. Full results and photos are in the gallery.</p>
+      </article>
+
+      <article class="event-full">
+        <h3>Community Outreach Day</h3>
+        <time datetime="2025-09-05">Sept 5, 2025</time>
+        <img src="images/event3.jpg" alt="community outreach" loading="lazy">
+        <p>Our students joined local efforts to plant trees, clean neighbourhoods and tutor children.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year3"></span> Lilian Kibo High School</p>
+    </div>
+  </footer>
+
+  <!-- sample Event structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Academic Awards Night",
+    "startDate": "2025-05-15T18:00",
+    "location": {
+      "@type": "Place",
+      "name": "Lilian Kibo High School Hall",
+      "address": "Goba, Dar es Salaam, Tanzania"
+    },
+    "image": [
+      "http://www.liliankibosecondary.com/images/event1.jpg"
+    ],
+    "description": "Celebrating outstanding academic performance."
+  }
+  </script>
+
+  <script src="/src/js/script.js" defer></script>
+</body>
+</html>
